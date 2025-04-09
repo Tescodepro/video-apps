@@ -8,7 +8,7 @@ import SingleVideo from '@/pages/SingleVideo.vue'
 const routes = [
   { path: '/', component: HomePage },
   { path: '/videos', component: VideoPage },
-  { path: '/videos/{id}', component: SingleVideo },
+  { path: '/videos/:id', component: SingleVideo },
   { path: '/login', component: LoginPage },
   { path: '/register', component: RegisterPage }
 ]

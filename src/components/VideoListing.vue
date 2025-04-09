@@ -60,9 +60,9 @@
                   <span class="badge bg-dark ms-2">{{ video.duration || 'N/A' }}</span>
                 </div>
                 <div class="hover-actions">
-                  <button class="btn btn-primary btn-sm">
-                    <i class="bi bi-play-fill"></i> Play
-                  </button>
+                  <router-link :to="`/videos/${video.id}`" class="btn btn-primary btn-sm">
+                  <i class="bi bi-play-fill"></i> Play
+                  </router-link>
                 </div>
               </div>
               <div class="card-body">
